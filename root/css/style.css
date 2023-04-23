@@ -58,7 +58,7 @@ header {
     cursor: pointer;
 }
 
-/* contenedor jugador */
+/* contenedor central */
 
 .container-fondo {
     justify-content: space-between;
@@ -74,82 +74,27 @@ header {
     justify-content: center;
     align-items: flex-end;
 }
-.boton {
-    flex-direction: row;
-    justify-content: center;
-    width: 134px;
-    height: 44px;
-    background: #8B48BF;
-    border-color: #8B48BF;
-    border-radius: 50px;
-    color: white;
-    cursor: pointer;
-    align-items: center;
-    
+
+.footer {
+    display: flex;
+    padding: 60px 0px;
+    justify-content: space-evenly;
+    background-color: black;   
+
+}
+.redes.sociales {
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-
-    .boton-more {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        width: 134px;
-        height: 44px;
-        gap: 10px;
-        background: #8B48BF;
-        border-color: #8B48BF;
-        cursor: pointer;
-        border-radius: 50px;
-        color: white;
+.nav-links {
+    display: flex;
         
+}
+.submit-boton {
+    background-color: white;
+    width: 45px;
+    height: 30px;
+    border-radius: 15px;
 
-    }
-    
-    .caja-violeta2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        
-        background-color: #8B48BF;
-        padding: 10vh 100px; 
-        justify-content: flex-start;
-        color: #FAFAFA;
-
-    }
-    .boton-go {
-        flex-direction: row;
-        justify-content: center;
-        width: 134px;
-        height: 44px;
-        background: white;
-        border-radius: 50px;
-        color: #8B48BF;
-        cursor: pointer;
-        
-    }
-    
-    .footer {
-        display: flex;
-        padding: 60px 0px;
-        justify-content: space-evenly;
-        background-color: black;   
-
-    }
-    .redes.sociales {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .nav-links {
-        display: flex;
-        
-        }
-    .submit-boton {
-        background-color: white;
-        width: 45px;
-        height: 30px;
-        border-radius: 15px;
-
-    }
+}
